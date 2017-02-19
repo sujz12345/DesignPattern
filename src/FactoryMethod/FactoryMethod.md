@@ -1,5 +1,6 @@
 # 工厂方法模式
 定义：
+
 Define an interface for creating an object,but let subclasses decide which class to instantiate.Factory Method lets a class defer instantiation to subclasses.
 
 优点：
