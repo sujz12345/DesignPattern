@@ -3,25 +3,21 @@ package Builder;
 /**
  * Created by sujinzhou on 2017/2/19.
  */
-public class ConcreteBuilder implements Builder{
-    private Product product = new Product();
+public class ConcreteBuilder extends Builder{
+
     @Override
     public void buildPartA() {
-
+        product.setPartA("partA1");
     }
 
     @Override
     public void buildPartB() {
-
+        product.setPartA("partB1");
     }
 
     @Override
     public void buildPartC() {
-
+        product.setPartA("partC1");
     }
 
-    @Override
-    public Product buildProduct() {
-        return product;
-    }
 }

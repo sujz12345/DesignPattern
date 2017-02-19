@@ -1,4 +1,4 @@
-#建造者模式
+#建造者模式，又名生成器模式
 定义：
 
 separate the construction of a complex object from its representation so that 
@@ -20,3 +20,5 @@ the same construction process can create create different representations
 中不易得到时，也可以采用建造者模式封装该对象的创建过程。该种场景只能是一个补偿方
 法，因为一个对象不容易获得，而在设计阶段竟然没有发觉，而要通过创建者模式柔化创建
 过程，本身已经违反设计的最初目标。
+- 当创建复杂对象的算法应该独立于该对象的组成部分以及他们的装配方式时
+- 当构造过程必须允许被构造的对象有不同的表示时

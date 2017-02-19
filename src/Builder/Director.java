@@ -14,6 +14,6 @@ public class Director {
         builder.buildPartA();
         builder.buildPartB();
         builder.buildPartC();
-       return  builder.buildProduct();
+       return  builder.getProduct();
     }
 }

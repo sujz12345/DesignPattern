@@ -3,11 +3,12 @@ package Builder;
 /**
  * Created by sujinzhou on 2017/2/19.
  */
-public interface Builder {
-    void buildPartA();
-    void buildPartB();
-    void buildPartC();
+public abstract class Builder {
+    protected Product product = new Product();
+    abstract void buildPartA();
+    abstract void buildPartB();
+    abstract void buildPartC();
 
-    Product buildProduct();
+    Product getProduct(){return product;}
 
 }
